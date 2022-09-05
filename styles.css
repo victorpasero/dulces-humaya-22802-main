@@ -1,0 +1,57 @@
+/* Estilos de presentacion */
+#fondoDePortada{
+    background-image: url(./IMAGENES/Central/imagenCentral.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+}
+
+.contenedor-primera-seccion p{
+
+}
+
+.contenedor-primera-seccion h1{
+    color: #FFFAF4;
+}
+
+.contenedor-primera-seccion{
+    width: 75%;
+    padding: 4rem 2rem;
+}
+
+/* media queries 360mobile 768table 1280desktop */
+@media screen and (min-width:380px) and (max-width:580px) {
+    
+}
+
+@media screen and (min-width:581px) and (max-width:1200px) {
+    
+}
+
+@media screen and (min-width:1201px) {
+    .contenedor-primera-seccion
+    {
+        width: 30%;
+        padding: 4rem 2rem;
+        background-color: rgba(0,0,0, 0.6);
+        margin: 0 2rem;
+    }
+    section
+    {
+        display: flex;
+        justify-content: flex-end;
+        padding: 2rem;
+    }
+    .contenedor-primera-seccion p
+    {
+        color: #FFFAF4;
+    }
+
+    .contenedor-primera-seccion button
+    {
+        display: block;
+        margin-top: 3rem !important;
+        margin: auto;
+        
+    }
+}
